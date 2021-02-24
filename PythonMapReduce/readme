@@ -1,1 +1,11 @@
 
+https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
+
+Execution Command:
+
+hadoop jar /opt/hadoop3/hadoop-3.3.0/share/hadoop/tools/lib/hadoop-streaming-3.3.0.jar \ 
+ -file /home/ragalayathvisra/Desktop/MRPython/mapper.py \ 
+ -mapper /home/ragalayathvisra/Desktop/MRPython/mapper.py \
+ -file /home/ragalayathvisra/Desktop/MRPython/reducer.py \
+ -reducer /home/ragalayathvisra/Desktop/MRPython/reducer.py \
+ -input /Input.txt -output /Output21
